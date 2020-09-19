@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Everjobs Suite" preserve-order = "true" verbose = "4">
+<test name="SeleniumTest" >
+<classes>
+<class name="com.auto.qa.base.BaseTest" />
+<class name="com.auto.qa.pageTest.PersonalInfoPageTest" />
+<class name="com.auto.qa.pageTest.HomePageTest" />
+</classes>
+</test>
+</suite>
